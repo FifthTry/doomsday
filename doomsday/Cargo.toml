@@ -1,0 +1,9 @@
+[package]
+name = "doomsday"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ftd = { version = "0.1.7", features = ["async"] }
+hyper = { version = "0.14", features = [ "full" ] }
+tokio = { version = "1", features = ["full"] }
